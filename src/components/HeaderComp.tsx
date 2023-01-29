@@ -7,7 +7,7 @@ const Header = () => {
   return (<div>
     <nav className="nav-extended  pink lighten-3">
       <div className="nav-wrapper">
-        <Link to="/" className="brand-logo">
+        <Link to="/landing-page/" className="brand-logo">
           Ruslan Cherniavsky
         </Link>
         <Link to="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></Link>
@@ -15,7 +15,7 @@ const Header = () => {
         <ul id="nav-mobile" className="right hide-on-med-and-down">
 
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/landing-page/">Home</Link>
           </li>
 
           <li>

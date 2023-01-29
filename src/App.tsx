@@ -18,6 +18,7 @@ function App() {
       <main className="container content" >
         <Routes >
           <Route path="/" element={<HomePage />} />
+          <Route path="/landing-page/" element={<HomePage />} />
           <Route path="/AboutPage" element={<AboutPage />} />
           <Route path="/ProjectsPage" element={<ProjectsPage />} />
           <Route path="/ContactPage" element={<ContactPage />} />

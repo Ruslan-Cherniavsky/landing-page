@@ -20,14 +20,37 @@ function Card(props: any) {
                     <p>{props.description}</p>
                 </div>
 
-                <div className="linksBottom">
-                    <div className="card-action">
-                        <a className="cardLink" href={props.projectLink}>Visit Page</a>
-                    </div>
-                    <div className="card-action">
-                        <a className="cardLink" href={props.gitHubLink}>Repo </a>
+
+                <div className="card-content">
+                    <div className="tecs-div">
+                        <h6 className="tecs">Technologies:</h6>
+
+                        <p>{props.technologies}</p>
                     </div>
                 </div>
+
+
+                <div className="card-content">
+                    <div className="tecs-div">
+                        <h6 className="tecs">Deploy:</h6>
+
+                        <p>{props.deploy}</p>
+                    </div>
+                </div>
+
+
+
+                <div className="linksBottom">
+                    <div className="card-action">
+                        <a className="cardLink" href={props.projectLink}>SITE</a>
+                    </div>
+                    <div className="card-action">
+                        <a className="cardLink" href={props.gitHubLink}>Frontend</a>
+                        <a className="cardLink" href={props.gitHubLink2}>Backend</a>
+                    </div>
+                </div>
+
+
 
             </div>
         </div>

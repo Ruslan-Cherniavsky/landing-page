@@ -1,11 +1,17 @@
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('../fonts/DarbotsRegular-ALo5A.otf') format('truetype');
+  /* Add more src lines for other font file formats if available */
+  /* e.g., src: url('../fonts/myfont.woff2') format('woff2'); */
+}
+
+
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif, ;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
+  font-family: 'MyFont';
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -62,6 +68,8 @@ nav .brand-logo {
 .card .card-content {
   padding: 10px 22px 30px 22px;
   border-radius: 0 0 2px 2px;
+
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .linksBottom {
@@ -123,6 +131,17 @@ main {
   justify-content: center;
   text-align: center;
   color: white;
+
+}
+
+.pageName2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+  
 }
 
 .paragh {
@@ -130,6 +149,8 @@ main {
   color: white;
   display: flex;
   margin: 0px 0px 0px 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
 }
 
 .img2 {

@@ -7,7 +7,7 @@ const ContactPage = () => {
         <div className="container">
             <div className="row">
 
-                <p className="pageName">
+                <p className="pageName2">
                     Mail: nalsurion@gmail.com <br></br>
                     Phone Number: 0544608258 <br></br>
 

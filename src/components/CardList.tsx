@@ -32,12 +32,12 @@ function CardList() {
         {
             title: 'Online Shop',
             description: 'A great online store with a huge product database that allows users to create their own unique cart',
-            imgUrl: 'https://i.postimg.cc/j5QzzhX3/3333333.png',
+            imgUrl: 'https://i.postimg.cc/D0Hxp8nH/444444.png',
             gitHubLink: 'https://github.com/Ruslan-Cherniavsky/Sopping-Online--Full-Stack-Class-4/tree/To-Gal/angular-CLIENT',
             projectLink: '',
             gitHubLink2: 'https://github.com/Ruslan-Cherniavsky/Sopping-Online--Full-Stack-Class-4/tree/To-Gal/.SERVER',
             technologies: "Angular + Node.js + MongoDB",
-            deploy: "No Deploy 1",
+            deploy: "No Deploy",
 
             id: Math.floor(Math.random() * 999)
         }

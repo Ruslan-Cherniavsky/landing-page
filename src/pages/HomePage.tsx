@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const HomePage = () => {
     return <>
 
-        <h2 className="pageName"> Ruslan Chernivsky</h2>
+        <h2 className="pageName"> Ruslan Cherniavsky</h2>
 
         <h5 className="pageName">Full Stack Developer & Designer </h5>
 

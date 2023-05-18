@@ -37,7 +37,7 @@ function CardList() {
             projectLink: '',
             gitHubLink2: 'https://github.com/Ruslan-Cherniavsky/Sopping-Online--Full-Stack-Class-4/tree/To-Gal/.SERVER',
             technologies: "Angular + Node.js + MongoDB",
-            deploy: "No Deploy",
+            deploy: "No Deploy 1",
 
             id: Math.floor(Math.random() * 999)
         }

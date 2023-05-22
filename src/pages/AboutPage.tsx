@@ -7,7 +7,12 @@ const AboutPage = () => {
 
         <div className="col l6">
           <span><img className="img2" src="https://i.postimg.cc/rpgywvMj/2.jpg"></img></span>
+          <br></br>
+          <br></br>
+          <br></br>
+
         </div>
+
 
         <div className="col l6">
           <h1 className="paragh" >

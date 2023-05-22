@@ -48,7 +48,7 @@ body {
 }
 
 nav .brand-logo {
-  font-size: 1.4rem !important;
+  font-size: 1.0rem !important;
 }
 
 .tecs-div {
@@ -270,7 +270,16 @@ nav {
 .img {
   display: flex;
   justify-content: center;
+  max-width: 100%;
+  height: auto;
 }
+
+img {
+
+  max-width: 100%;
+  height: auto;
+}
+
 
 
 

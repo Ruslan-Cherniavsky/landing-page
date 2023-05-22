@@ -55,11 +55,11 @@ function Card(props: any) {
 
                 <div className="linksBottom">
                     <div className="card-action">
-                   { props.projectLink != "" ? <a className="cardLink" href={props.projectLink}>GO TO PAGE</a> : <a> </a>}
+                   { props.projectLink != "" ? <a className="cardLink" href={props.projectLink}>PAGE</a> : <a> </a>}
                     </div>
                     <div className="card-action">
-                    { props.gitHubLink != "" ? <a className="cardLink" href={props.gitHubLink}> repo Frontend</a> : <a> </a>}
-                    { props.gitHubLink2 != "" ? <a className="cardLink" href={props.gitHubLink2}> repo Backend</a>: <a> </a>}
+                    { props.gitHubLink != "" ? <a className="cardLink" href={props.gitHubLink}> Frontend</a> : <a> </a>}
+                    { props.gitHubLink2 != "" ? <a className="cardLink" href={props.gitHubLink2}> Backend</a>: <a> </a>}
                 </div>
 
 

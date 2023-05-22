@@ -4,26 +4,18 @@ import { Link } from "react-router-dom";
 
 const HomePage = () => {
     return <>
-
-        <h2 className="pageName"> Ruslan Cherniavsky</h2>
-
-        <h5 className="pageName">Full Stack Developer & Designer </h5>
-
+        <h1 className="pageName3"> <span>Ruslan Cherniavsky</span></h1>
+        <h1 className="pageName4"><span className="xspan">Full Stack Developer & Designer </span></h1>
         <div className="img">
-
-            <img src="https://i.postimg.cc/7LrFWHPn/ezgif-com-gif-maker-1.gif" />
-
+            <span className="xspan2"><img src="https://i.postimg.cc/7LrFWHPn/ezgif-com-gif-maker-1.gif" /></span>
         </div>
-
 
         <div className="lnks">
-
-            <Link className="likn" to="/ProjectsPage">My Projects</Link>
-            <Link className="likn" to="/AboutPage">Abut Me</Link>
-            <Link className="likn" to="/ContactPage">Contact Me</Link>
+            <Link className="likn" to="/ProjectsPage"><span>My Projects</span></Link>
+            <Link className="likn" to="/AboutPage"><span>Abut Me</span></Link>
+            <Link className="likn" to="/ContactPage"><span>Contact Me</span></Link>
         </div>
-
-        <a className="pageName" href='https://resume.io/r/KUfmwzFnA'>Link to my CV</a>
+        <a className="pageName4" href='https://resume.io/r/KUfmwzFnA'><span className="xspan">Link to my CV</span></a>
 
 
         <div className="container">

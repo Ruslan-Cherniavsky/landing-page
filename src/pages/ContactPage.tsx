@@ -3,7 +3,7 @@
 
 const ContactPage = () => {
     return <>
-        <h3 className="pageName">Contact Me</h3>
+        <h1 className="pageName"><span>Contact Me</span></h1>
         <div className="container">
             <div className="row">
 
@@ -11,9 +11,12 @@ const ContactPage = () => {
                     Mail: nalsurion@gmail.com <br></br>
                     Phone Number: 0544608258 <br></br>
 
-                </p>
+                    
+                     <br></br>
+                     <br></br>
 
-                <a className="pageName" href='https://resume.io/r/KUfmwzFnA'>Link to my CV</a>
+                </p>
+                <a className="pageName4" href='https://resume.io/r/KUfmwzFnA'><span>Link to my CV</span></a>
             </div>
         </div>
     </>

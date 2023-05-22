@@ -13,6 +13,7 @@ function CardList() {
             imgUrl: 'https://i.postimg.cc/tRVdbWNz/react-Movies.png',
             projectLink: 'https://ruslan-cherniavsky.github.io/React-Movies/',
             gitHubLink: 'https://github.com/Ruslan-Cherniavsky/React-Movies',
+            gitHubLink2: '',
             technologies: "React",
             deploy: "GH Pages",
 

@@ -7,7 +7,7 @@ const ProjectsPage = () => {
     return <>
         <div className="container">
             <div className="row">
-                <h4 className="pageName">My projects </h4>
+                <h1 className="pageName"><span>My projects </span></h1>
             </div>
         </div>
         <div className='list'>

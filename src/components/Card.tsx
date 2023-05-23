@@ -26,7 +26,7 @@ function Card(props: any) {
                 </div>
 
                 <div className="card-image">
-                <span className="xspan">
+                <span className="xspan3">
                     <img className="cardImage" src={props.imgUrl} /></span>
                 </div>
                 <div className="card-content">

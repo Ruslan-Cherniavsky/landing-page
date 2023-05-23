@@ -12,7 +12,7 @@ const HomePage = () => {
 
         <div className="lnks">
             <Link className="likn" to="/ProjectsPage"><span>Projects</span></Link>
-            <Link className="likn" to="/AboutPage"><span>Abut</span></Link>
+            <Link className="likn" to="/AboutPage"><span>About</span></Link>
             <Link className="likn" to="/ContactPage"><span>Contact</span></Link>
         </div>
         <a className="pageName4" href='https://resume.io/r/KUfmwzFnA'><span className="xspan xspan4">Link to my CV</span></a>

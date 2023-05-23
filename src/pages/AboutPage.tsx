@@ -1,11 +1,11 @@
 
 const AboutPage = () => {
   return (<>
-    <h1 className="pageName"><span>Obut Me </span></h1>
+    <h1 className="pageName"><span>About Me </span></h1>
     <div className="container">
-      <div className="row contentt">
+      <div className="row ">
 
-        <div className="col l6">
+        <div className="col l6 contentt">
           <span><img className="img2" src="https://i.postimg.cc/rpgywvMj/2.jpg"></img></span>
           <br></br>
           <br></br>

@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.473ed835.css",
-    "main.js": "/landing-page/static/js/main.287e99d8.js",
+    "main.css": "/landing-page/static/css/main.e4d212c2.css",
+    "main.js": "/landing-page/static/js/main.148fad39.js",
     "static/media/DarbotsRegular-ALo5A.otf": "/landing-page/static/media/DarbotsRegular-ALo5A.d8bcfed2e6fe7f221612.otf",
     "index.html": "/landing-page/index.html",
-    "main.473ed835.css.map": "/landing-page/static/css/main.473ed835.css.map",
-    "main.287e99d8.js.map": "/landing-page/static/js/main.287e99d8.js.map"
+    "main.e4d212c2.css.map": "/landing-page/static/css/main.e4d212c2.css.map",
+    "main.148fad39.js.map": "/landing-page/static/js/main.148fad39.js.map"
   },
   "entrypoints": [
-    "static/css/main.473ed835.css",
-    "static/js/main.287e99d8.js"
+    "static/css/main.e4d212c2.css",
+    "static/js/main.148fad39.js"
   ]
 }

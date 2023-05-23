@@ -10,7 +10,7 @@ const Header = () => {
         <Link to="/landing-page/" className="brand-logo">
           <span>Ruslan Cherniavsky</span>
         </Link>
-        <Link to="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></Link>
+        <Link to="/landing-page/" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></Link>
 
         <ul id="nav-mobile" className="right hide-on-med-and-down">
 
@@ -30,17 +30,16 @@ const Header = () => {
           <li>
             <Link to="/ContactPage"><span>Contact Me</span></Link>
           </li>
-
-
-
-
         </ul>
       </div>
     </nav>
 
-    <ul className="sidenav" id="mobile-demo">
-    </ul>
+
+    
+
+
   </div>
+
   );
 }
 

@@ -3,7 +3,7 @@ const AboutPage = () => {
   return (<>
     <h1 className="pageName"><span>Obut Me </span></h1>
     <div className="container">
-      <div className="row">
+      <div className="row contentt">
 
         <div className="col l6">
           <span><img className="img2" src="https://i.postimg.cc/rpgywvMj/2.jpg"></img></span>
